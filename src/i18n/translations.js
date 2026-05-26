@@ -1,0 +1,551 @@
+// All site copy in English, French and Arabic.
+// Every visible string flows through this object so language switching
+// (including Arabic RTL) applies across the entire site.
+
+export const LANGUAGES = [
+  { code: 'en', label: 'EN', name: 'English', dir: 'ltr' },
+  { code: 'fr', label: 'FR', name: 'Français', dir: 'ltr' },
+  { code: 'ar', label: 'AR', name: 'العربية', dir: 'rtl' },
+]
+
+export const translations = {
+  en: {
+    loading: 'Loading',
+    nav: {
+      home: 'Home',
+      services: 'Services',
+      offers: 'Offers',
+      platforms: 'Platforms',
+      about: 'About',
+      contact: 'Contact',
+    },
+    hero: {
+      badge: 'Premium Social Media Growth Agency',
+      title: 'Grow Your Audience With Real Promotion',
+      subtitle:
+        'We help creators, influencers, streamers, and brands grow faster using real audience promotion, branding strategies, creator consulting, and social media marketing.',
+      getStarted: 'Get Started',
+      whatsapp: 'Chat On WhatsApp',
+    },
+    platforms: {
+      title: 'Platforms We Master',
+      subtitle: 'Professional growth and promotion across every major social platform.',
+    },
+    services: {
+      title: 'Our Services',
+      subtitle: 'End-to-end social media growth, branding and creator consulting.',
+      items: [
+        { title: 'Real TikTok Promotion', desc: 'Authentic, targeted TikTok promotion that drives real viewers and engagement.' },
+        { title: 'Instagram Growth', desc: 'Strategic Instagram growth to expand reach, followers and brand presence.' },
+        { title: 'Livestream Promotion', desc: 'Boost your live streams with real exposure and active audiences.' },
+        { title: 'Branding & Consulting', desc: 'Premium personal branding and one-on-one creator consulting.' },
+        { title: 'Content Creation Strategy', desc: 'Data-driven content plans engineered to go viral and convert.' },
+        { title: 'Audience Targeting', desc: 'Precise audience targeting so you reach the people who matter.' },
+        { title: 'American Accounts Setup', desc: 'Professional setup of US-based accounts for global reach.' },
+        { title: 'Viral Marketing Campaigns', desc: 'Full viral campaign management built to maximize visibility.' },
+        { title: 'Creator Monetization', desc: 'Turn your audience into revenue with proven monetization systems.' },
+        { title: 'Social Media Management', desc: 'Complete management of your social presence, end to end.' },
+      ],
+    },
+    offers: {
+      title: 'Special Offers',
+      subtitle: 'Transparent packages designed for every stage of your creator journey.',
+      popular: 'Most Popular',
+      items: [
+        {
+          title: 'Starter Growth',
+          price: '$30',
+          cta: 'Get Offer',
+          features: [
+            'Reach 10K audience growth',
+            'Real promotion strategy',
+            'Fast visibility boost',
+            'Beginner creator support',
+            'Audience targeting',
+          ],
+        },
+        {
+          title: 'Professional Creator Pack',
+          price: '$100',
+          cta: 'See More',
+          features: [
+            'Branding optimization',
+            'Content consulting',
+            'Livestream exposure',
+            'Advanced audience growth',
+            'Multi-platform promotion',
+          ],
+        },
+        {
+          title: '100K Creator Strategy',
+          price: '$300',
+          cta: 'Start Now',
+          features: [
+            'Professional consulting',
+            'Full branding strategy',
+            'Creator growth planning',
+            'Viral campaign support',
+            'Priority assistance',
+            'Monetization guidance',
+          ],
+        },
+        {
+          title: 'Elite Influencer Package',
+          price: '$500',
+          cta: 'Become Elite',
+          features: [
+            'Premium social media strategy',
+            'High-level branding',
+            'Creator positioning',
+            'Long-term audience scaling',
+            'Custom consulting sessions',
+            'VIP support',
+          ],
+        },
+      ],
+    },
+    why: {
+      title: 'Why Choose Us',
+      subtitle: 'A modern growth partner trusted by creators worldwide.',
+      items: [
+        { title: 'Real Audience Promotion', desc: 'Genuine viewers and engagement — never bots or fake numbers.' },
+        { title: 'Fast Support', desc: 'Quick, responsive support whenever you need us.' },
+        { title: 'Professional Branding', desc: 'Polished, high-end branding that makes you stand out.' },
+        { title: 'Trusted Creator Strategies', desc: 'Proven strategies refined with hundreds of creators.' },
+        { title: 'Multi-Platform Expertise', desc: 'Deep expertise across every major social platform.' },
+        { title: 'Modern Growth Methods', desc: 'Cutting-edge methods aligned with the latest algorithms.' },
+      ],
+    },
+    stats: {
+      items: [
+        { value: 500, suffix: '+', label: 'Creators Helped' },
+        { value: 1, suffix: 'M+', label: 'Audience Reached' },
+        { value: 24, suffix: '/7', label: 'Support' },
+        { value: 100, suffix: '%', label: 'Global Promotion' },
+      ],
+    },
+    content: {
+      title: 'Content Creation & Branding',
+      subtitle: 'The pillars behind every brand we help scale.',
+      items: [
+        { title: 'Personal Branding', desc: 'Craft a memorable identity that resonates with your audience.' },
+        { title: 'Viral Content Ideas', desc: 'Fresh, trend-aware ideas designed to capture attention fast.' },
+        { title: 'Audience Psychology', desc: 'Understand what makes your audience watch, follow and share.' },
+        { title: 'Creator Positioning', desc: 'Position yourself as the go-to creator in your niche.' },
+        { title: 'Growth Systems', desc: 'Repeatable systems that compound your growth over time.' },
+        { title: 'Social Media Consistency', desc: 'Stay consistent with content frameworks that never burn you out.' },
+      ],
+    },
+    testimonials: {
+      title: 'What Creators Say',
+      subtitle: 'Real results from real creators we have worked with.',
+      items: [
+        {
+          name: 'Sarah M.',
+          role: 'TikTok Creator',
+          text: 'My account exploded after working with Yassine. Real views, real followers — the growth was insane and completely organic.',
+        },
+        {
+          name: 'David K.',
+          role: 'Twitch Streamer',
+          text: 'The livestream promotion brought a flood of active viewers to my channel. Best investment I made in my streaming career.',
+        },
+        {
+          name: 'Aya B.',
+          role: 'Instagram Influencer',
+          text: 'The branding consulting completely transformed my page. Brands started reaching out to me within weeks.',
+        },
+        {
+          name: 'Marcus T.',
+          role: 'YouTube Creator',
+          text: 'Professional, fast and effective. The strategy they built helped me cross 100K subscribers faster than I imagined.',
+        },
+      ],
+    },
+    showcase: {
+      title: 'Featured On TikTok',
+      subtitle: 'Follow the journey and see real promotion in action.',
+      visit: 'Visit TikTok Profile',
+    },
+    finalCta: {
+      title: 'Ready To Grow Your Brand?',
+      subtitle: 'With professional social media promotion and creator branding strategies.',
+      contact: 'Contact Us',
+      whatsapp: 'WhatsApp',
+    },
+    contact: {
+      title: 'Get In Touch',
+      subtitle: 'Reach out and let us build your growth strategy together.',
+      emailLabel: 'Email',
+      phoneLabel: 'Phone / WhatsApp',
+      tiktokLabel: 'TikTok',
+    },
+    footer: {
+      tagline: 'Premium social media growth, creator branding and audience promotion for the modern creator economy.',
+      quickLinks: 'Quick Links',
+      followUs: 'Follow Us',
+      rights: 'All rights reserved.',
+      developedBy: 'Website Developed By Mohammed Oukhayi',
+    },
+  },
+
+  fr: {
+    loading: 'Chargement',
+    nav: {
+      home: 'Accueil',
+      services: 'Services',
+      offers: 'Offres',
+      platforms: 'Plateformes',
+      about: 'À propos',
+      contact: 'Contact',
+    },
+    hero: {
+      badge: 'Agence Premium de Croissance sur les Réseaux Sociaux',
+      title: 'Développez Votre Audience Avec une Vraie Promotion',
+      subtitle:
+        'Nous aidons les créateurs, influenceurs, streamers et marques à grandir plus vite grâce à une promotion d’audience réelle, des stratégies de branding, du conseil créateur et du marketing sur les réseaux sociaux.',
+      getStarted: 'Commencer',
+      whatsapp: 'Discuter sur WhatsApp',
+    },
+    platforms: {
+      title: 'Les Plateformes Que Nous Maîtrisons',
+      subtitle: 'Croissance et promotion professionnelles sur toutes les grandes plateformes sociales.',
+    },
+    services: {
+      title: 'Nos Services',
+      subtitle: 'Croissance, branding et conseil créateur de bout en bout.',
+      items: [
+        { title: 'Vraie Promotion TikTok', desc: 'Une promotion TikTok authentique et ciblée qui génère de vrais spectateurs et de l’engagement.' },
+        { title: 'Croissance Instagram', desc: 'Croissance stratégique sur Instagram pour étendre votre portée, vos abonnés et votre marque.' },
+        { title: 'Promotion de Livestream', desc: 'Boostez vos lives avec une vraie visibilité et des audiences actives.' },
+        { title: 'Branding & Conseil', desc: 'Branding personnel premium et conseil créateur individuel.' },
+        { title: 'Stratégie de Contenu', desc: 'Plans de contenu basés sur les données, conçus pour devenir viraux et convertir.' },
+        { title: 'Ciblage d’Audience', desc: 'Un ciblage précis pour atteindre les personnes qui comptent vraiment.' },
+        { title: 'Création de Comptes Américains', desc: 'Configuration professionnelle de comptes américains pour une portée mondiale.' },
+        { title: 'Campagnes Marketing Virales', desc: 'Gestion complète de campagnes virales pour maximiser la visibilité.' },
+        { title: 'Monétisation des Créateurs', desc: 'Transformez votre audience en revenus avec des systèmes de monétisation éprouvés.' },
+        { title: 'Gestion des Réseaux Sociaux', desc: 'Gestion complète de votre présence sociale, de A à Z.' },
+      ],
+    },
+    offers: {
+      title: 'Offres Spéciales',
+      subtitle: 'Des forfaits transparents conçus pour chaque étape de votre parcours créateur.',
+      popular: 'Le Plus Populaire',
+      items: [
+        {
+          title: 'Croissance Débutant',
+          price: '30 $',
+          cta: 'Obtenir l’Offre',
+          features: [
+            'Atteignez 10K de croissance d’audience',
+            'Stratégie de promotion réelle',
+            'Boost de visibilité rapide',
+            'Accompagnement créateur débutant',
+            'Ciblage d’audience',
+          ],
+        },
+        {
+          title: 'Pack Créateur Professionnel',
+          price: '100 $',
+          cta: 'Voir Plus',
+          features: [
+            'Optimisation du branding',
+            'Conseil en contenu',
+            'Visibilité en livestream',
+            'Croissance d’audience avancée',
+            'Promotion multi-plateformes',
+          ],
+        },
+        {
+          title: 'Stratégie Créateur 100K',
+          price: '300 $',
+          cta: 'Commencer',
+          features: [
+            'Conseil professionnel',
+            'Stratégie de branding complète',
+            'Planification de la croissance',
+            'Support de campagne virale',
+            'Assistance prioritaire',
+            'Conseils de monétisation',
+          ],
+        },
+        {
+          title: 'Pack Influenceur Élite',
+          price: '500 $',
+          cta: 'Devenir Élite',
+          features: [
+            'Stratégie sociale premium',
+            'Branding haut de gamme',
+            'Positionnement créateur',
+            'Croissance d’audience à long terme',
+            'Sessions de conseil personnalisées',
+            'Support VIP',
+          ],
+        },
+      ],
+    },
+    why: {
+      title: 'Pourquoi Nous Choisir',
+      subtitle: 'Un partenaire de croissance moderne, approuvé par des créateurs du monde entier.',
+      items: [
+        { title: 'Vraie Promotion d’Audience', desc: 'De vrais spectateurs et un vrai engagement — jamais de bots ou de faux chiffres.' },
+        { title: 'Support Rapide', desc: 'Un support rapide et réactif chaque fois que vous en avez besoin.' },
+        { title: 'Branding Professionnel', desc: 'Un branding soigné et haut de gamme qui vous démarque.' },
+        { title: 'Stratégies Créateur Éprouvées', desc: 'Des stratégies prouvées, affinées avec des centaines de créateurs.' },
+        { title: 'Expertise Multi-Plateformes', desc: 'Une expertise approfondie sur chaque grande plateforme sociale.' },
+        { title: 'Méthodes de Croissance Modernes', desc: 'Des méthodes de pointe alignées avec les derniers algorithmes.' },
+      ],
+    },
+    stats: {
+      items: [
+        { value: 500, suffix: '+', label: 'Créateurs Aidés' },
+        { value: 1, suffix: 'M+', label: 'Audience Atteinte' },
+        { value: 24, suffix: '/7', label: 'Support' },
+        { value: 100, suffix: '%', label: 'Promotion Mondiale' },
+      ],
+    },
+    content: {
+      title: 'Création de Contenu & Branding',
+      subtitle: 'Les piliers derrière chaque marque que nous aidons à grandir.',
+      items: [
+        { title: 'Branding Personnel', desc: 'Créez une identité mémorable qui résonne avec votre audience.' },
+        { title: 'Idées de Contenu Viral', desc: 'Des idées fraîches et tendance conçues pour capter l’attention rapidement.' },
+        { title: 'Psychologie de l’Audience', desc: 'Comprenez ce qui pousse votre audience à regarder, suivre et partager.' },
+        { title: 'Positionnement Créateur', desc: 'Positionnez-vous comme le créateur incontournable de votre niche.' },
+        { title: 'Systèmes de Croissance', desc: 'Des systèmes reproductibles qui font croître votre audience dans le temps.' },
+        { title: 'Régularité sur les Réseaux', desc: 'Restez régulier grâce à des cadres de contenu qui ne vous épuisent jamais.' },
+      ],
+    },
+    testimonials: {
+      title: 'Ce Que Disent les Créateurs',
+      subtitle: 'De vrais résultats de vrais créateurs avec qui nous avons travaillé.',
+      items: [
+        {
+          name: 'Sarah M.',
+          role: 'Créatrice TikTok',
+          text: 'Mon compte a explosé après avoir travaillé avec Yassine. De vraies vues, de vrais abonnés — une croissance folle et totalement organique.',
+        },
+        {
+          name: 'David K.',
+          role: 'Streamer Twitch',
+          text: 'La promotion de livestream a amené une vague de spectateurs actifs sur ma chaîne. Le meilleur investissement de ma carrière de streamer.',
+        },
+        {
+          name: 'Aya B.',
+          role: 'Influenceuse Instagram',
+          text: 'Le conseil en branding a complètement transformé ma page. Les marques ont commencé à me contacter en quelques semaines.',
+        },
+        {
+          name: 'Marcus T.',
+          role: 'Créateur YouTube',
+          text: 'Professionnel, rapide et efficace. La stratégie qu’ils ont bâtie m’a aidé à dépasser 100K abonnés plus vite que je ne l’imaginais.',
+        },
+      ],
+    },
+    showcase: {
+      title: 'En Vedette Sur TikTok',
+      subtitle: 'Suivez l’aventure et voyez la vraie promotion en action.',
+      visit: 'Voir le Profil TikTok',
+    },
+    finalCta: {
+      title: 'Prêt à Développer Votre Marque ?',
+      subtitle: 'Avec une promotion professionnelle sur les réseaux sociaux et des stratégies de branding créateur.',
+      contact: 'Contactez-Nous',
+      whatsapp: 'WhatsApp',
+    },
+    contact: {
+      title: 'Contactez-Nous',
+      subtitle: 'Écrivez-nous et construisons ensemble votre stratégie de croissance.',
+      emailLabel: 'Email',
+      phoneLabel: 'Téléphone / WhatsApp',
+      tiktokLabel: 'TikTok',
+    },
+    footer: {
+      tagline: 'Croissance sociale premium, branding créateur et promotion d’audience pour l’économie des créateurs moderne.',
+      quickLinks: 'Liens Rapides',
+      followUs: 'Suivez-Nous',
+      rights: 'Tous droits réservés.',
+      developedBy: 'Site Développé Par Mohammed Oukhayi',
+    },
+  },
+
+  ar: {
+    loading: 'جاري التحميل',
+    nav: {
+      home: 'الرئيسية',
+      services: 'الخدمات',
+      offers: 'العروض',
+      platforms: 'المنصات',
+      about: 'من نحن',
+      contact: 'تواصل',
+    },
+    hero: {
+      badge: 'وكالة متميزة لنمو وسائل التواصل الاجتماعي',
+      title: 'نمِّ جمهورك مع ترويج حقيقي',
+      subtitle:
+        'نساعد صنّاع المحتوى والمؤثرين والبثّاثين والعلامات التجارية على النمو بشكل أسرع من خلال ترويج جمهور حقيقي، واستراتيجيات العلامة التجارية، واستشارات صنّاع المحتوى، والتسويق عبر وسائل التواصل الاجتماعي.',
+      getStarted: 'ابدأ الآن',
+      whatsapp: 'تحدث عبر واتساب',
+    },
+    platforms: {
+      title: 'المنصات التي نتقنها',
+      subtitle: 'نمو وترويج احترافي على جميع منصات التواصل الاجتماعي الكبرى.',
+    },
+    services: {
+      title: 'خدماتنا',
+      subtitle: 'نمو وعلامة تجارية واستشارات لصنّاع المحتوى من البداية إلى النهاية.',
+      items: [
+        { title: 'ترويج تيك توك حقيقي', desc: 'ترويج تيك توك أصيل ومستهدف يجلب مشاهدين حقيقيين وتفاعلاً فعلياً.' },
+        { title: 'نمو إنستغرام', desc: 'نمو استراتيجي على إنستغرام لتوسيع الوصول والمتابعين وحضور العلامة التجارية.' },
+        { title: 'ترويج البث المباشر', desc: 'عزّز بثوثك المباشرة بظهور حقيقي وجمهور نشط.' },
+        { title: 'العلامة التجارية والاستشارات', desc: 'علامة شخصية متميزة واستشارات فردية لصنّاع المحتوى.' },
+        { title: 'استراتيجية صناعة المحتوى', desc: 'خطط محتوى مبنية على البيانات مصمّمة لتنتشر وتحقق التحويل.' },
+        { title: 'استهداف الجمهور', desc: 'استهداف دقيق للجمهور لتصل إلى الأشخاص المهمّين.' },
+        { title: 'إنشاء حسابات أمريكية', desc: 'إعداد احترافي لحسابات أمريكية لتحقيق وصول عالمي.' },
+        { title: 'حملات تسويق فيروسية', desc: 'إدارة كاملة للحملات الفيروسية لتعظيم الظهور.' },
+        { title: 'تحقيق الدخل للمبدعين', desc: 'حوّل جمهورك إلى أرباح بأنظمة تحقيق دخل مثبتة.' },
+        { title: 'إدارة وسائل التواصل', desc: 'إدارة كاملة لحضورك على وسائل التواصل من الألف إلى الياء.' },
+      ],
+    },
+    offers: {
+      title: 'عروض خاصة',
+      subtitle: 'باقات شفافة مصممة لكل مرحلة من رحلتك كصانع محتوى.',
+      popular: 'الأكثر شيوعاً',
+      items: [
+        {
+          title: 'نمو المبتدئين',
+          price: '30 $',
+          cta: 'احصل على العرض',
+          features: [
+            'الوصول إلى نمو جمهور 10 آلاف',
+            'استراتيجية ترويج حقيقية',
+            'تعزيز سريع للظهور',
+            'دعم لصنّاع المحتوى المبتدئين',
+            'استهداف الجمهور',
+          ],
+        },
+        {
+          title: 'باقة صانع المحتوى الاحترافية',
+          price: '100 $',
+          cta: 'اعرف المزيد',
+          features: [
+            'تحسين العلامة التجارية',
+            'استشارات المحتوى',
+            'ظهور في البث المباشر',
+            'نمو متقدم للجمهور',
+            'ترويج متعدد المنصات',
+          ],
+        },
+        {
+          title: 'استراتيجية صانع محتوى 100 ألف',
+          price: '300 $',
+          cta: 'ابدأ الآن',
+          features: [
+            'استشارات احترافية',
+            'استراتيجية علامة تجارية كاملة',
+            'تخطيط نمو صانع المحتوى',
+            'دعم الحملات الفيروسية',
+            'مساعدة ذات أولوية',
+            'إرشادات تحقيق الدخل',
+          ],
+        },
+        {
+          title: 'باقة المؤثر النخبة',
+          price: '500 $',
+          cta: 'كن من النخبة',
+          features: [
+            'استراتيجية تواصل اجتماعي متميزة',
+            'علامة تجارية رفيعة المستوى',
+            'تموضع صانع المحتوى',
+            'توسيع الجمهور على المدى الطويل',
+            'جلسات استشارية مخصصة',
+            'دعم كبار الشخصيات',
+          ],
+        },
+      ],
+    },
+    why: {
+      title: 'لماذا تختارنا',
+      subtitle: 'شريك نمو حديث يثق به صنّاع المحتوى حول العالم.',
+      items: [
+        { title: 'ترويج جمهور حقيقي', desc: 'مشاهدون وتفاعل حقيقي — بلا روبوتات أو أرقام وهمية.' },
+        { title: 'دعم سريع', desc: 'دعم سريع وسريع الاستجابة متى احتجت إلينا.' },
+        { title: 'علامة تجارية احترافية', desc: 'علامة تجارية مصقولة وراقية تجعلك متميزاً.' },
+        { title: 'استراتيجيات موثوقة', desc: 'استراتيجيات مثبتة صُقلت مع مئات صنّاع المحتوى.' },
+        { title: 'خبرة متعددة المنصات', desc: 'خبرة عميقة في كل منصة تواصل اجتماعي كبرى.' },
+        { title: 'أساليب نمو حديثة', desc: 'أساليب متطورة متوافقة مع أحدث الخوارزميات.' },
+      ],
+    },
+    stats: {
+      items: [
+        { value: 500, suffix: '+', label: 'صانع محتوى تمّت مساعدته' },
+        { value: 1, suffix: 'M+', label: 'جمهور تم الوصول إليه' },
+        { value: 24, suffix: '/7', label: 'دعم' },
+        { value: 100, suffix: '%', label: 'ترويج عالمي' },
+      ],
+    },
+    content: {
+      title: 'صناعة المحتوى والعلامة التجارية',
+      subtitle: 'الركائز وراء كل علامة تجارية نساعدها على النمو.',
+      items: [
+        { title: 'العلامة الشخصية', desc: 'اصنع هوية لا تُنسى تتردد صداها لدى جمهورك.' },
+        { title: 'أفكار محتوى فيروسية', desc: 'أفكار جديدة ومواكبة للترند مصممة لجذب الانتباه بسرعة.' },
+        { title: 'سيكولوجية الجمهور', desc: 'افهم ما يدفع جمهورك للمشاهدة والمتابعة والمشاركة.' },
+        { title: 'تموضع صانع المحتوى', desc: 'ضع نفسك كصانع المحتوى الأبرز في مجالك.' },
+        { title: 'أنظمة النمو', desc: 'أنظمة قابلة للتكرار تضاعف نموك مع مرور الوقت.' },
+        { title: 'الاستمرارية على المنصات', desc: 'حافظ على الاستمرارية بأطر محتوى لا ترهقك أبداً.' },
+      ],
+    },
+    testimonials: {
+      title: 'ماذا يقول صنّاع المحتوى',
+      subtitle: 'نتائج حقيقية من صنّاع محتوى حقيقيين عملنا معهم.',
+      items: [
+        {
+          name: 'سارة م.',
+          role: 'صانعة محتوى تيك توك',
+          text: 'انفجر حسابي بعد العمل مع ياسين. مشاهدات حقيقية ومتابعون حقيقيون — كان النمو مذهلاً وعضوياً تماماً.',
+        },
+        {
+          name: 'ديفيد ك.',
+          role: 'بثّاث على تويتش',
+          text: 'جلب ترويج البث المباشر سيلاً من المشاهدين النشطين لقناتي. أفضل استثمار قمت به في مسيرتي.',
+        },
+        {
+          name: 'آية ب.',
+          role: 'مؤثرة على إنستغرام',
+          text: 'حوّلت استشارات العلامة التجارية صفحتي بالكامل. بدأت العلامات التجارية بالتواصل معي خلال أسابيع.',
+        },
+        {
+          name: 'ماركوس ت.',
+          role: 'صانع محتوى يوتيوب',
+          text: 'احترافي وسريع وفعّال. ساعدتني الاستراتيجية التي بنوها على تجاوز 100 ألف مشترك أسرع مما تخيلت.',
+        },
+      ],
+    },
+    showcase: {
+      title: 'مميز على تيك توك',
+      subtitle: 'تابع الرحلة وشاهد الترويج الحقيقي على أرض الواقع.',
+      visit: 'زيارة حساب تيك توك',
+    },
+    finalCta: {
+      title: 'هل أنت مستعد لتنمية علامتك التجارية؟',
+      subtitle: 'مع ترويج احترافي على وسائل التواصل واستراتيجيات علامة تجارية لصنّاع المحتوى.',
+      contact: 'تواصل معنا',
+      whatsapp: 'واتساب',
+    },
+    contact: {
+      title: 'تواصل معنا',
+      subtitle: 'راسلنا ولنبنِ معاً استراتيجية نموك.',
+      emailLabel: 'البريد الإلكتروني',
+      phoneLabel: 'الهاتف / واتساب',
+      tiktokLabel: 'تيك توك',
+    },
+    footer: {
+      tagline: 'نمو متميز على وسائل التواصل، وعلامة تجارية لصنّاع المحتوى، وترويج جمهور لاقتصاد المبدعين الحديث.',
+      quickLinks: 'روابط سريعة',
+      followUs: 'تابعنا',
+      rights: 'جميع الحقوق محفوظة.',
+      developedBy: 'تم تطوير الموقع بواسطة محمد أوخاي',
+    },
+  },
+}
